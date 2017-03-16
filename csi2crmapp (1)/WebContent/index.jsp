@@ -62,7 +62,7 @@ function compruebaalfan(campo, evento) {
 	<input name="send" class="btn btn-lg btn-success btn-block"
 		type="submit" id="login" value="Login »" onclick="compruebayenvia();" />-->
 	<div class="login">
-		<h1>Inicar Sesión</h1>
+		<h1>Iniciar Sesión</h1>
 		<form action="bienvenido.jsp" method="post" name="iniciosesion">
 			<input type="text" name="usuario"
 				onkeypress="return compruebaalfan(this,event);" maxlength="10"
